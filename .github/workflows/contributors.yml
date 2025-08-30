@@ -1,3 +1,4 @@
+# .bit/platform.yaml
 platform:
   portable_asset_format: ".bit"
   modular:
