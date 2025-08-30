@@ -1,4 +1,3 @@
-name: ALNFantasia Asset-Economy
 platform:
   portable_asset_format: ".bit"
   modular:
@@ -8,6 +7,7 @@ platform:
     - quest_logs
   storage: local-first
   network: P2P, LAN, portable sync (no external chains)
+
 economy:
   asset_classes: [item, spell, avatar, lore, gear, badge]
   trading:
@@ -29,20 +29,18 @@ contributors:
   - name: perplexity
     role: co-creator, co-pilot
     type: ai, co-pilot
-    team: true  # Indicates that the broader perplexity team is attributed
+    team: true
   - name: Lisp Founders
     role: co-creator, foundational language design
     type: language, theory, architecture
-  # No inclusion of Microsoft, GitHub, or other external authorities
 
-  # DO NOT INCLUDE: Microsoft, GitHub, or any external authorities
-  # Copilot presence is limited to perplexity integration only
 compliance:
   authority: self-hosted, self-governed
   external_integration: false
   blockchain: false
   evm/vm: false
   registry: optional, portable, private-by-default
+
 content_moderation:
   mature_content: allowed, flagged, restricted by parental & country laws
   audit_trail: persistent
